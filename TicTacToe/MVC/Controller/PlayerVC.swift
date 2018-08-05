@@ -41,8 +41,8 @@ class PlayerVC: UIViewController {
         }
     }
     
-    override var prefersStatusBarHidden: Bool {
-        return true
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
     }
     
     @objc func btnMovesActn(_ sender: UIButton) {
