@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		116FB56B215343F600E51623 /* ModelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FB56A215343F600E51623 /* ModelClass.swift */; };
 		11DA1CAB2116ADC300C74B89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DA1CAA2116ADC300C74B89 /* AppDelegate.swift */; };
 		11DA1CB02116ADC300C74B89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11DA1CAE2116ADC300C74B89 /* Main.storyboard */; };
 		11DA1CB22116ADC400C74B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11DA1CB12116ADC400C74B89 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		116FB56A215343F600E51623 /* ModelClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelClass.swift; sourceTree = "<group>"; };
 		11DA1CA72116ADC300C74B89 /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DA1CAA2116ADC300C74B89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11DA1CAF2116ADC300C74B89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		116FB569215343F600E51623 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				116FB56A215343F600E51623 /* ModelClass.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		11DA1C9E2116ADC300C74B89 = {
 			isa = PBXGroup;
 			children = (
@@ -66,8 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				11DA1CAA2116ADC300C74B89 /* AppDelegate.swift */,
+				116FB569215343F600E51623 /* Model */,
 				11DA1CBE2116AE0700C74B89 /* View */,
-				11E0A74B21176F4D0033A045 /* Model */,
 				11DA1CBF2116AE0E00C74B89 /* Controller */,
 			);
 			path = MVC;
@@ -98,13 +108,6 @@
 				11DA1CC32116B8A700C74B89 /* PlayerVC.swift */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		11E0A74B21176F4D0033A045 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +183,7 @@
 			files = (
 				11DA1CAB2116ADC300C74B89 /* AppDelegate.swift in Sources */,
 				11DA1CC22116AE4B00C74B89 /* StartVC.swift in Sources */,
+				116FB56B215343F600E51623 /* ModelClass.swift in Sources */,
 				11DA1CC42116B8A700C74B89 /* PlayerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
